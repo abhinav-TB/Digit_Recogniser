@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mnist/pages/draw.dart';
 import 'package:mnist/pages/upload.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class Home extends StatefulWidget {
 }
 
 int currentIndex = 0;
-List tabs = [UploadImage(), Center(child: Text("Drawing page"))];
+List tabs = [UploadImage(), DrawPage()];
 
 class _HomeState extends State<Home> {
   @override
