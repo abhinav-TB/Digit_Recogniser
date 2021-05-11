@@ -30,7 +30,7 @@ class _DrawPageState extends State<DrawPage> {
       ),
       appBar: AppBar(
         backgroundColor: Colors.pink,
-        title: Text("Best digit recognizer in the world"),
+        title: Text("Digit Recognizer"),
       ),
       body: Align(
         alignment: Alignment.center,
